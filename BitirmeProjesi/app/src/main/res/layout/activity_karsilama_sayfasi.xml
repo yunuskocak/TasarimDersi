@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/Widget.AppCompat.Light.ActionBar">
+
+    <TextView
+        android:layout_width="236dp"
+        android:layout_height="43dp"
+        android:text="İşlemler"
+        android:id="@+id/textView3"
+        android:layout_x="136dp"
+        android:layout_y="47dp"
+        android:textSize="40dp"
+        android:textStyle="bold|normal|italic" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="İçerikler"
+        android:id="@+id/btnIcerik"
+        android:layout_x="26dp"
+        android:layout_y="230dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Ödevler"
+        android:id="@+id/button4"
+        android:layout_x="246dp"
+        android:layout_y="230dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Sınavlar"
+        android:id="@+id/button5"
+        android:layout_x="26dp"
+        android:layout_y="320dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Soru Sor"
+        android:id="@+id/button6"
+        android:layout_x="246dp"
+        android:layout_y="320dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Forum"
+        android:id="@+id/button11"
+        android:layout_x="26dp"
+        android:layout_y="420dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Ayarlar"
+        android:id="@+id/button12"
+        android:layout_x="246dp"
+        android:layout_y="420dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Ders :"
+        android:id="@+id/textView5"
+        android:layout_x="23dp"
+        android:layout_y="105dp"
+        android:textSize="23dp"
+        android:textStyle="bold|normal|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Konu :"
+        android:id="@+id/textView6"
+        android:layout_x="23dp"
+        android:layout_y="160dp"
+        android:textSize="23dp"
+        android:textStyle="bold|normal|italic" />
+
+    <Spinner
+        android:layout_width="277dp"
+        android:layout_height="37dp"
+        android:id="@+id/spinner"
+        android:layout_x="110dp"
+        android:layout_y="105dp"
+        android:spinnerMode="dropdown" />
+
+    <Spinner
+        android:layout_width="277dp"
+        android:layout_height="37dp"
+        android:id="@+id/spinner2"
+        android:layout_x="110dp"
+        android:layout_y="160dp"
+        android:spinnerMode="dropdown" />
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:text="Çıkış"
+        android:id="@+id/button3"
+        android:layout_x="111dp"
+        android:layout_y="507dp" />
+
+</AbsoluteLayout>

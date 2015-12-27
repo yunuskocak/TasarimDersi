@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yeni Kayit"
+        android:drawableLeft="@drawable/add"
+        android:id="@+id/btnYeniKayit"
+        android:layout_x="0dp"
+        android:layout_y="1dp"
+        android:clickable="true"
+        android:background="@null" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guncelle"
+        android:drawableLeft="@drawable/update"
+        android:id="@+id/btnGuncelle"
+        android:layout_x="0dp"
+        android:layout_y="72dp"
+        android:clickable="true"
+        android:background="@null" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sil"
+        android:drawableLeft="@drawable/delete"
+        android:id="@+id/btnSil"
+        android:layout_x="0dp"
+        android:layout_y="145dp"
+        android:clickable="true"
+        android:background="@null" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PDF Aktar"
+        android:drawableLeft="@drawable/pdf"
+        android:id="@+id/button2"
+        android:layout_y="209dp"
+        android:clickable="true"
+        android:background="@null"
+        android:layout_x="0dp" />
+
+</AbsoluteLayout>

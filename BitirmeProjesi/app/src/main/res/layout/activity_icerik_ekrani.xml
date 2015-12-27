@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="İçerik İşlemleri "
+        android:id="@+id/textView4"
+        android:layout_x="110dp"
+        android:layout_y="64dp"
+        android:textSize="35dp" />
+
+    <ListView
+        android:layout_width="382dp"
+        android:layout_height="458dp"
+        android:id="@+id/lstIcerikler"
+        android:layout_x="14dp"
+        android:layout_y="112dp"
+        android:choiceMode="singleChoice" />
+
+</AbsoluteLayout>

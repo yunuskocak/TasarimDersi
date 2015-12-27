@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Şifre Hatırlat"
+        android:id="@+id/textView8"
+        android:layout_x="77dp"
+        android:layout_y="44dp"
+        android:textStyle="bold|normal|italic"
+        android:textSize="50dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Şifreyi E-mail Olarak Gönder"
+        android:id="@+id/button"
+        android:layout_x="142dp"
+        android:layout_y="271dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText4"
+        android:layout_x="146dp"
+        android:layout_y="200dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/editText5"
+        android:layout_x="148dp"
+        android:layout_y="150dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Doğum Tarihi"
+        android:id="@+id/textView9"
+        android:layout_x="12dp"
+        android:layout_y="150dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="E-mail"
+        android:id="@+id/textView10"
+        android:layout_x="26dp"
+        android:layout_y="200dp" />
+</AbsoluteLayout>
